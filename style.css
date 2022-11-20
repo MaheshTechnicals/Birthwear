@@ -3,15 +3,41 @@
   padding: 0;
 }
 
+body{
+  font-family: 'Poppins', sans-serif;
+}
 
 .header {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content:center;
+  align-items: left;
   flex-direction: column;
-  height: 65px;
+  height: 50px;
   width: 100%;
-  background: black;
+  background:rgb(110,105,102);
   color: white;
   padding: 10px;
+} 
+
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  color: white;
+  height: 100vh;
+  width: 100%;
+  background-image: url(https://github.com/SagarCoder007/Birthwear/raw/main/img/hero-img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-title{
+  font-family: 'Poppins', sans-serif;
+  font-size: 35px;
+  margin-left: 100px;
+}
+
+.logo{
+  display: block;
 }
